@@ -20,6 +20,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: test-report.html
-          path: test-report.html
-          retention-days: 100
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 1000

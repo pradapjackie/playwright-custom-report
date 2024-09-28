@@ -138,7 +138,7 @@ class CustomReporter {
     </html>
   `;
 
-        fs.writeFileSync('test-report.html', htmlContent);
+        fs.writeFileSync('playwright-report/test-report.html', htmlContent);
     }
 
 
